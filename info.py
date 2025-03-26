@@ -17,7 +17,7 @@ API_ID = int(environ.get('API_ID', '28379549'))
 API_HASH = environ.get('API_HASH', '70c04843f3a522ecc001b911df96272b')
 BOT_TOKEN = environ.get('BOT_TOKEN', '')
 
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '993294576 7253187871').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '993294576').split()]
 USERNAME = environ.get('USERNAME', "https://telegram.me/Darkanetwork")
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002288567117'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+KjHMUk3MPrJjYTI1')
@@ -36,7 +36,7 @@ STICKERS_IDS = ('CAACAgQAAxkBAAEK99dlfC7LDqnuwtGRkIoacot_dGC4zQACbg8AAuHqsVDaMQe
 FILE_AUTO_DEL_TIMER = int(environ.get('FILE_AUTO_DEL_TIMER', '600'))
 IS_VERIFY = is_enabled('IS_VERIFY', True)
 LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1002266321360'))
-TUTORIAL = environ.get("TUTORIAL", "https://t.me/Thecinemacircle10/20")
+TUTORIAL = environ.get("TUTORIAL", "https://t.me/Thecinemacircle10/17")
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg")
 SHORTENER_API = environ.get("SHORTENER_API", "4906a94c24843d66112e8b706b999057dcc8d942")
 SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'modijiurl.Com')
